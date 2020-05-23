@@ -1,0 +1,83 @@
+h1{
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 60px;
+}
+#container{
+  position: absolute;
+  left: 25%;
+}
+body{
+  background-color: black;
+}
+
+a{
+  color: gold;
+}
+#weather{
+  color: gold;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+}
+#author{
+  margin-top: 20px;
+  color: white;
+  position: absolute;
+  left: 35%;
+}
+
+#unit{
+  color: white;
+}
+img{
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 330px) {
+
+  h1{
+    font-size: 25px;
+  }
+  #container{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+  }
+  #author{
+    position: absolute;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 25px;
+  }
+  #container{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+  #author{
+    position: absolute;
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  h1{
+    font-size: 25px;
+  }
+  #container{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+  #author{
+    position: absolute;
+    left: 20%;
+  }
+}
